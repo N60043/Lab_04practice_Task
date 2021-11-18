@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd"
+         version="4.0">
+    <servlet>
+        <servlet-name>Lab_04</servlet-name>
+        <servlet-class>Servlet.MyServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Lab_04</servlet-name>
+        <url-pattern>/la_04Task/*</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <servlet-name>ServletDisplay</servlet-name>
+        <servlet-class>Servlet.ServletDisplay</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ServletDisplay</servlet-name>
+        <url-pattern>/servletdisplay</url-pattern> </servlet-mapping>
+</web-app>
